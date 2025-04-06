@@ -5,15 +5,17 @@ const LayoutPage = ({title, children} : {title: string, children:React.ReactNode
         <div className="wrapper">
             <header className="header">
                 <ul className='menu-ul'>
-                    <li><a href="/">Головна</a></li>
-                    <li><a href="/aboutUs">Про нас</a></li>
-                    <li><a href="/Blog">Блоги</a></li>
+                    <li><a className='menu-a' href="/">Головна</a></li>
+                    <li><a className='menu-a' href="/aboutUs">Про нас</a></li>
+                    <li><a className='menu-a' href="/Blog">Блоги</a></li>
                 </ul>
             </header>
             <main className='layout-main'>
-                <h1>{title}</h1>
-                <div className="content">
-                    {children}
+                <div className='layout-container'>
+                    <h2 className='layout-h2'>{title}</h2>
+                    <div className="content">
+                        {children}
+                    </div>
                 </div>
             </main>
             <footer>

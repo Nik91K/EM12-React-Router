@@ -8,10 +8,9 @@ const LayoutPage = ({title, children} : {title: string, children:React.ReactNode
                     <li><a href="/">Головна</a></li>
                     <li><a href="/aboutUs">Про нас</a></li>
                     <li><a href="/Blog">Блоги</a></li>
-                    <li><a href="/Articles/:id">Стаття</a></li>
                 </ul>
             </header>
-            <main>
+            <main className='layout-main'>
                 <h1>{title}</h1>
                 <div className="content">
                     {children}

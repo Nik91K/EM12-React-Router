@@ -8,13 +8,13 @@ const ArticlesPage = () =>{
     let {id} = useParams()
     function geArticlesID(id:number) {
         const product = articles.find(p => p.id === id)
-        return product || { id: null, title: "Title not found" }
+        return product || { id: null, title: "Заголовок не знайдено", text: "Текст не знайдено" }
     }
     const articlesID = geArticlesID(Number(id))
     return (
       <LayoutPage title='Статті'>
-          <h2>Статті</h2>
           <h2>{articlesID.title}</h2>
+          <p>{articlesID.text}</p>
       </LayoutPage>
     )
 }

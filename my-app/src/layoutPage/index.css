@@ -4,9 +4,11 @@
 }
 
 .menu-ul{
-    width: 100%;
+    padding-top: 10px;
+    width: 800px;
     display: flex;
     justify-content: space-around;
     list-style: none;
     color: #fff;
+    font-size: 20px;
 }

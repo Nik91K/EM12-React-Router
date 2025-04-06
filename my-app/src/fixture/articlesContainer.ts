@@ -1,4 +1,6 @@
-const articles = [
+import { ArticlesType } from "../types/articlesTypes";
+
+export const articles: ArticlesType[] = [
     {
       id: 1,
       title: "Що таке TypeScript?",
@@ -50,5 +52,3 @@ const articles = [
       text: "Docker — це платформа для контейнеризації додатків, що забезпечує їхню портативність.",
     },
   ];
-
-  export default articles

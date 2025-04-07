@@ -18,7 +18,7 @@ const LayoutPage = ({title, children} : {title: string, children:React.ReactNode
                     </div>
                 </div>
             </main>
-            <footer>
+            <footer className='footer-layout'>
                 <p>EM12 React Router</p>
             </footer>
         </div>

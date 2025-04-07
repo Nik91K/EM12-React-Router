@@ -9,18 +9,24 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    color: #fff;
     font-size: 20px;
+}
+
+.menu-a{
+    color: #a7a7a7;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu-a:hover{
     text-decoration-line: underline;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
 }
 
 .layout-main{
     display: flex;
     justify-content: center;
-    height: 1000px;
+    height: 800px;
 }
 
 .layout-container{
@@ -33,4 +39,9 @@
     text-align: center;
     font-size: 30px;
     font-weight: 600;
+}
+
+.footer-layout{
+    display: flex;
+    justify-content: center;
 }

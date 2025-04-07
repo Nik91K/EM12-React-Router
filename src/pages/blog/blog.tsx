@@ -5,13 +5,13 @@ import { articles } from '../../fixture/articlesContainer'
 const BlogPage = () =>{
   return (
     <LayoutPage title='Блог'>
-        <div className='blog-content'>
+        <ol className='blog-content'>
          {articles.map((article) => (
-           <div>
+           <li className='blog-list'>
               <a href={`/Articles/${article.id}`}>{article.title}</a>
-           </div>
+           </li>
          ))}
-        </div>
+        </ol>
     </LayoutPage>
   )
 }

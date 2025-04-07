@@ -1,0 +1,14 @@
+.blog-content{
+    margin-top: 20px;
+}
+
+.blog-list{
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.blog-list:hover{
+    text-decoration-line: underline;
+    transition: all 0.3s ease-in-out;
+}
